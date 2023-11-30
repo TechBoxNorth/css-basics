@@ -18,3 +18,13 @@ main {
 h2 {
   border-bottom: 2px solid skyblue;
 }
+
+p {
+  background-color: rgb(023, 102, 152);
+  color: antiquewhite;
+}
+
+.other-p {
+  background-color: burlywood;
+  color: brown;
+}
