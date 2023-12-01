@@ -3,3 +3,31 @@ article {
   background-color: aqua;
   margin-block: 5px;
 }
+
+.static {
+}
+
+.relative {
+  position: relative;
+  /*top: 10px;
+  left: 10px;*/
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+  /*left: 0;*/
+  bottom: 0;
+}
+
+.parent-relative {
+  position: relative;
+  background-color: lightgreen;
+  height: 150px;
+}
+
+.child-absolute {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
